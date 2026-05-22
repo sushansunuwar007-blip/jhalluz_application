@@ -1,0 +1,10 @@
+:root { --green: #2ecc71; --panel: #151515; }
+body { margin: 0; background: #0a0a0a; color: #fff; font-family: 'Inter', sans-serif; }
+.screen { display: flex; justify-content: center; align-items: center; height: 100vh; }
+.card, .quiz-container { background: var(--panel); padding: 40px; border-left: 4px solid var(--green); width: 450px; }
+.btn-primary { background: transparent; border: 1px solid var(--green); color: var(--green); padding: 12px; width: 100%; cursor: pointer; transition: 0.3s; margin-top: 10px; }
+.btn-primary:hover { background: var(--green); color: black; }
+.options { display: flex; flex-direction: column; gap: 10px; min-height: 250px; }
+.option-btn { background: #1a1a1a; border: 1px solid #333; color: #fff; padding: 15px; cursor: pointer; text-align: left; transition: 0.2s; min-height: 50px; }
+.option-btn:hover { border-color: var(--green); color: var(--green); }
+.msg { color: var(--green); font-size: 0.9em; margin-bottom: 10px; }
